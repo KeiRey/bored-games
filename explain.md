@@ -12,3 +12,18 @@ Alur: dua pemain bergiliran menggerakkan bidak catur di papan 8x8. Klik untuk me
 - Fungsi: entertainment game catur berbasis HTML Canvas
 - Akses: buka file `games/chess/index.html` langsung di browser
 - Fitur: semua bidak catur (King, Queen, Rook, Bishop, Knight, Pawn), validasi gerakan sah, deteksi check/checkmate/stalemate, castling (kingside & queenside), en passant, pawn promotion (modal dialog), undo move (Ctrl+Z), move notation list, captured pieces display, turn indicator, last move highlight, king-in-check highlight, coordinate labels
+
+-- Page Personal Portfolio
+Alur: user mengunjungi halaman one-page portfolio, bisa scroll untuk melihat sections (About, Skills, Projects, Contact). Navigasi fixed di atas, smooth scroll ke setiap section.
+- Fungsi: personal portfolio untuk menampilkan profile, skills, dan projects
+- Akses: buka file `personal/index.html` langsung di browser
+- Fitur:
+  - **Responsive**: mobile-first, breakpoint 768px, hamburger menu untuk mobile
+  - **Custom cursor**: circle cursor + dot + trail, hover state pada elemen .hoverable, scroll velocity effect
+  - **Scroll animation**: Intersection Observer trigger reveal (fade + slide up/left/right/scale), staggered delays
+  - **Parallax**: hero orbs bergerak berdasarkan scroll Y, parallax divider dengan floating shapes
+  - **Hover animations**: 3D tilt card (perspective rotate), button scale + glow, card lift + border glow, image zoom overlay
+  - **Ticker/marquee**: continuous scrolling tech keywords
+  - **Skill bars**: animated progress bars dengan skill level
+  - **Navbar**: transparent → frosted glass on scroll, mobile slide-in menu
+  - **Contact form**: functional with feedback animation
